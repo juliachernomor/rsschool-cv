@@ -1,10 +1,12 @@
 ## **1. Name:** ##  
 
-CHERNOMORSKAYA IULIIA
+CHERNOMORSKAYA IULIIA  
+  
 ===
 ## **2. Photo:** ##  
   
 ![Iuliia Chernomorskaya] (img/cv-photo.jpg)  
+
 ===
 ## **3. Contact information:** ##
 
@@ -22,7 +24,6 @@ CHERNOMORSKAYA IULIIA
   
 * ### _Telegram:_  
   @blackseasides  
-    ---
   
 ## **4. Self-introduction:** ##  
   
@@ -38,19 +39,22 @@ CHERNOMORSKAYA IULIIA
 
 ## **6. Code examples:** ##
   
-    [Training project "Cat Energy"  by HTML Academy](https://juliachernomor.github.io/2216777-cat-energy-27/)
+    [Training project "Cat Energy"  by HTML Academy](https://juliachernomor.github.io/2216777-cat-energy-27/)  
+  
 ===
 ## **7. Work experience:** ##
   
-    Work experience is absent.
+    Work experience is absent.  
+  
 ===
 ## **8. Education:** ##  
   
 * _Saint-Petersburg State University_
 * _НTML Academy(student)_
-
+  
 ## **9. Level of English:** ##  
   
-  Pre-intermidiate
+  Pre-intermidiate  
+
 ===
   
