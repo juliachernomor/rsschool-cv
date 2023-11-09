@@ -4,7 +4,8 @@
   ---
 
 ## **2. Photo:** ##  
-    ![Iuliia Chernomorskaya](img/cv-photo.jpg)  
+  
+![Iuliia Chernomorskaya](img/cv-photo.jpg)  
   
   ---
 
@@ -53,7 +54,7 @@
 ## **8. Education:** ##  
   
 * _Saint-Petersburg State University_
-* _НTML Academy(student)_
+* _НTML Academy_
   
 ---
 ## **9. Level of English:** ##  
