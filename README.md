@@ -1,1 +1,1 @@
-1 https://juliachernomor.github.io/rsschool-cv/cv
+https://juliachernomor.github.io/rsschool-cv/cv
