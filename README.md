@@ -1,1 +1,1 @@
-[ссылка на cv](https://juliachernomor.github.io/rsschool-cv/cv)
+[ссылка на cv-html](https://juliachernomor.github.io/rsschool-cv/)
