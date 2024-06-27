@@ -2,7 +2,7 @@
 
   ![Iuliia Chernomorskaia](images/cv.jpg)
 
-## **Contact**
+## **Contact information**
 
 * ### _phone:_
 
@@ -64,14 +64,14 @@
 
 ---
 
-## **8. Education:**
+## **Education:**
 
 * _Saint-Petersburg State University_(Department of Microbiology)
 * _НTML Academy_(Frontend course)
 
 ---
 
-## **9. Level of English:**
+## **Level of English:**
 
   Pre-intermidiate
 
