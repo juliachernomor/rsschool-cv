@@ -2,7 +2,7 @@
 
   ![Iuliia Chernomorskaia](images/cv.jpg)
 
-## **Contact information**
+## **Contacts**
 
 * ### _phone:_
 

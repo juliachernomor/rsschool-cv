@@ -21,5 +21,5 @@ module.exports = {
             filename: 'index.html', // название выходного файла
         }),
     ],
-
+    mode: 'development'
 }
