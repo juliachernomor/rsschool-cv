@@ -1,1 +1,1 @@
-import '../scss/reboot.scss';
+import '../scss/style.scss';
