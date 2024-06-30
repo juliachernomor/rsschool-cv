@@ -16,7 +16,7 @@
   \*************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `*,\n*::before,\n*::after {\n  box-sizing: border-box;\n}\n\nhtml,\nbody {\n  margin: 0;\n  padding: 0;\n  min-height: 100vh;\n}\n\nhtml {\n  font-style: normal;\n  font-weight: 400;\n  line-height: 24px;\n  scroll-behavior: smooth;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  text-rendering: optimizeLegibility;\n}\n\nbody {\n  width: 100%;\n  height: 100%;\n  width: 100%;\n  display: grid;\n  grid-template-columns: 75% 25%;\n}\n\na {\n  text-decoration: none;\n}\n\nimg,\nvideo {\n  display: block;\n}\n\nbutton {\n  background-color: aqua;\n}\n\n.wrapper {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  /* stylelint-disable-next-line */\n  min-height: calc(100 * var(--vh, 1vh));\n}\n.wrapper header,\n.wrapper footer {\n  flex-shrink: 0;\n}\n.wrapper main {\n  flex-grow: 1;\n}\n\n.visually-hidden {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  margin: -1px;\n  padding: 0;\n  overflow: hidden;\n  white-space: nowrap;\n  border: 0;\n  clip: rect(0 0 0 0);\n  clip-path: inset(100%);\n}\n\n.video {\n  height: 100%;\n  width: 100%;\n  object-fit: cover;\n}\n\n.nav {\n  padding: 25px 30px 25px 40px;\n}\n\n.nav__list {\n  list-style-type: none;\n  display: flex;\n  justify-content: space-between;\n}\n\n/* @mixin hover-focus {\n    @media (hover: hover) {\n      &:hover:not(.focus-visible) {\n        @content;\n      }\n    }\n\n    &.focus-visible:focus {\n      @content;\n    }\n  }\n*/\n/*  @include hover-focus {\n      opacity: 0.8;\n    }\n*/\n/*@mixin hover {\n    @media (hover: hover) {\n      &:hover:not(.focus-visible) {\n        @content;\n      }\n    }\n  }\n*/\n/*@mixin focus {\n    &.focus-visible:focus {\n      @content;\n    }\n  }\n*/\n/*@mixin active {\n    &.focus-visible:active {\n      @content;\n    }\n  }\n*/`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://rsschool0/./source/scss/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/kanit-extralight.woff2 */ \"./source/fonts/kanit-extralight.woff2\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/kanit-extralight.woff */ \"./source/fonts/kanit-extralight.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/kanit-light.woff2 */ \"./source/fonts/kanit-light.woff2\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/kanit-light.woff */ \"./source/fonts/kanit-light.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/kanit-regular.woff2 */ \"./source/fonts/kanit-regular.woff2\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/kanit-regular.woff */ \"./source/fonts/kanit-regular.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/kanit-medium.woff2 */ \"./source/fonts/kanit-medium.woff2\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/kanit-medium.woff */ \"./source/fonts/kanit-medium.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_6___);\nvar ___CSS_LOADER_URL_REPLACEMENT_7___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_7___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `*,\n*::before,\n*::after {\n  box-sizing: border-box;\n}\n\nhtml,\nbody {\n  min-height: 100vh;\n  margin: 0;\n  padding: 0;\n}\n\nhtml {\n  font-style: normal;\n  font-weight: 300;\n  font-family: \"Kanit\", \"Arial\", sans-serif;\n  font-size: 22px;\n  line-height: 24px;\n  scroll-behavior: smooth;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  text-rendering: optimizeLegibility;\n}\n\nbody {\n  width: 100%;\n  height: 100%;\n  width: 100%;\n  display: grid;\n  grid-template-columns: 75% 25%;\n}\n\na {\n  text-decoration: none;\n}\n\nimg,\nvideo {\n  display: block;\n}\n\nbutton {\n  background-color: aqua;\n}\n\n.wrapper {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  /* stylelint-disable-next-line */\n  min-height: calc(100 * var(--vh, 1vh));\n}\n.wrapper header,\n.wrapper footer {\n  flex-shrink: 0;\n}\n.wrapper main {\n  flex-grow: 1;\n}\n\n.visually-hidden {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  margin: -1px;\n  padding: 0;\n  overflow: hidden;\n  white-space: nowrap;\n  border: 0;\n  clip: rect(0 0 0 0);\n  clip-path: inset(100%);\n}\n\n@font-face {\n  font-family: \"Kanit\";\n  font-style: normal;\n  font-weight: 200;\n  src: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) format(\"woff2\"), url(${___CSS_LOADER_URL_REPLACEMENT_1___}) format(\"woff\");\n  font-display: swap;\n}\n@font-face {\n  font-family: \"Kanit\";\n  font-style: normal;\n  font-weight: 300;\n  src: url(${___CSS_LOADER_URL_REPLACEMENT_2___}) format(\"woff2\"), url(${___CSS_LOADER_URL_REPLACEMENT_3___}) format(\"woff\");\n  font-display: swap;\n}\n@font-face {\n  font-family: \"Kanit\";\n  font-style: normal;\n  font-weight: 400;\n  src: url(${___CSS_LOADER_URL_REPLACEMENT_4___}) format(\"woff2\"), url(${___CSS_LOADER_URL_REPLACEMENT_5___}) format(\"woff\");\n  font-display: swap;\n}\n@font-face {\n  font-family: \"Kanit\";\n  font-style: normal;\n  font-weight: 500;\n  src: url(${___CSS_LOADER_URL_REPLACEMENT_6___}) format(\"woff2\"), url(${___CSS_LOADER_URL_REPLACEMENT_7___}) format(\"woff\");\n  font-display: swap;\n}\n.video {\n  height: 100%;\n  width: 100%;\n  object-fit: cover;\n}\n\n.nav {\n  padding: 25px 30px 25px 20px;\n}\n\n.nav__list {\n  padding: 0;\n  margin: 0;\n  list-style-type: none;\n  display: flex;\n  column-gap: 5%;\n  row-gap: 10px;\n  justify-content: flex-start;\n  flex-wrap: wrap;\n}\n\n.nav__item-item {\n  margin: 0 20px;\n}\n\n/* @mixin hover-focus {\n    @media (hover: hover) {\n      &:hover:not(.focus-visible) {\n        @content;\n      }\n    }\n\n    &.focus-visible:focus {\n      @content;\n    }\n  }\n*/\n/*  @include hover-focus {\n      opacity: 0.8;\n    }\n*/\n/*@mixin hover {\n    @media (hover: hover) {\n      &:hover:not(.focus-visible) {\n        @content;\n      }\n    }\n  }\n*/\n/*@mixin focus {\n    &.focus-visible:focus {\n      @content;\n    }\n  }\n*/\n/*@mixin active {\n    &.focus-visible:active {\n      @content;\n    }\n  }\n*/`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://rsschool0/./source/scss/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -27,6 +27,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 eval("\r\n\r\n/*\r\n  MIT License http://www.opensource.org/licenses/mit-license.php\r\n  Author Tobias Koppers @sokra\r\n*/\r\nmodule.exports = function (cssWithMappingToString) {\r\n  var list = [];\r\n\r\n  // return the list of modules as css string\r\n  list.toString = function toString() {\r\n    return this.map(function (item) {\r\n      var content = \"\";\r\n      var needLayer = typeof item[5] !== \"undefined\";\r\n      if (item[4]) {\r\n        content += \"@supports (\".concat(item[4], \") {\");\r\n      }\r\n      if (item[2]) {\r\n        content += \"@media \".concat(item[2], \" {\");\r\n      }\r\n      if (needLayer) {\r\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\r\n      }\r\n      content += cssWithMappingToString(item);\r\n      if (needLayer) {\r\n        content += \"}\";\r\n      }\r\n      if (item[2]) {\r\n        content += \"}\";\r\n      }\r\n      if (item[4]) {\r\n        content += \"}\";\r\n      }\r\n      return content;\r\n    }).join(\"\");\r\n  };\r\n\r\n  // import a list of modules into the list\r\n  list.i = function i(modules, media, dedupe, supports, layer) {\r\n    if (typeof modules === \"string\") {\r\n      modules = [[null, modules, undefined]];\r\n    }\r\n    var alreadyImportedModules = {};\r\n    if (dedupe) {\r\n      for (var k = 0; k < this.length; k++) {\r\n        var id = this[k][0];\r\n        if (id != null) {\r\n          alreadyImportedModules[id] = true;\r\n        }\r\n      }\r\n    }\r\n    for (var _k = 0; _k < modules.length; _k++) {\r\n      var item = [].concat(modules[_k]);\r\n      if (dedupe && alreadyImportedModules[item[0]]) {\r\n        continue;\r\n      }\r\n      if (typeof layer !== \"undefined\") {\r\n        if (typeof item[5] === \"undefined\") {\r\n          item[5] = layer;\r\n        } else {\r\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\r\n          item[5] = layer;\r\n        }\r\n      }\r\n      if (media) {\r\n        if (!item[2]) {\r\n          item[2] = media;\r\n        } else {\r\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\r\n          item[2] = media;\r\n        }\r\n      }\r\n      if (supports) {\r\n        if (!item[4]) {\r\n          item[4] = \"\".concat(supports);\r\n        } else {\r\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\r\n          item[4] = supports;\r\n        }\r\n      }\r\n      list.push(item);\r\n    }\r\n  };\r\n  return list;\r\n};\n\n//# sourceURL=webpack://rsschool0/./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+eval("\r\n\r\nmodule.exports = function (url, options) {\r\n  if (!options) {\r\n    options = {};\r\n  }\r\n  if (!url) {\r\n    return url;\r\n  }\r\n  url = String(url.__esModule ? url.default : url);\r\n\r\n  // If url is already wrapped in quotes, remove them\r\n  if (/^['\"].*['\"]$/.test(url)) {\r\n    url = url.slice(1, -1);\r\n  }\r\n  if (options.hash) {\r\n    url += options.hash;\r\n  }\r\n\r\n  // Should url be wrapped?\r\n  // See https://drafts.csswg.org/css-values-3/#urls\r\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\r\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\r\n  }\r\n  return url;\r\n};\n\n//# sourceURL=webpack://rsschool0/./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -118,6 +128,86 @@ eval("\r\n\r\n/* istanbul ignore next  */\r\nfunction styleTagTransform(css, sty
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/style.scss */ \"./source/scss/style.scss\");\n\n\n//# sourceURL=webpack://rsschool0/./source/js/index.js?");
 
+/***/ }),
+
+/***/ "./source/fonts/kanit-extralight.woff":
+/*!********************************************!*\
+  !*** ./source/fonts/kanit-extralight.woff ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ee3c861cf4fe206f9d2e.woff\";\n\n//# sourceURL=webpack://rsschool0/./source/fonts/kanit-extralight.woff?");
+
+/***/ }),
+
+/***/ "./source/fonts/kanit-extralight.woff2":
+/*!*********************************************!*\
+  !*** ./source/fonts/kanit-extralight.woff2 ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"56781051f1ec1505dc82.woff2\";\n\n//# sourceURL=webpack://rsschool0/./source/fonts/kanit-extralight.woff2?");
+
+/***/ }),
+
+/***/ "./source/fonts/kanit-light.woff":
+/*!***************************************!*\
+  !*** ./source/fonts/kanit-light.woff ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a90dec57bc59b8b04a0b.woff\";\n\n//# sourceURL=webpack://rsschool0/./source/fonts/kanit-light.woff?");
+
+/***/ }),
+
+/***/ "./source/fonts/kanit-light.woff2":
+/*!****************************************!*\
+  !*** ./source/fonts/kanit-light.woff2 ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"02d19e285db17f2c7b92.woff2\";\n\n//# sourceURL=webpack://rsschool0/./source/fonts/kanit-light.woff2?");
+
+/***/ }),
+
+/***/ "./source/fonts/kanit-medium.woff":
+/*!****************************************!*\
+  !*** ./source/fonts/kanit-medium.woff ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"5ab38daa6ff8b556193c.woff\";\n\n//# sourceURL=webpack://rsschool0/./source/fonts/kanit-medium.woff?");
+
+/***/ }),
+
+/***/ "./source/fonts/kanit-medium.woff2":
+/*!*****************************************!*\
+  !*** ./source/fonts/kanit-medium.woff2 ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c83e84b79cff0a085a50.woff2\";\n\n//# sourceURL=webpack://rsschool0/./source/fonts/kanit-medium.woff2?");
+
+/***/ }),
+
+/***/ "./source/fonts/kanit-regular.woff":
+/*!*****************************************!*\
+  !*** ./source/fonts/kanit-regular.woff ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"78b4f51d91fbda201782.woff\";\n\n//# sourceURL=webpack://rsschool0/./source/fonts/kanit-regular.woff?");
+
+/***/ }),
+
+/***/ "./source/fonts/kanit-regular.woff2":
+/*!******************************************!*\
+  !*** ./source/fonts/kanit-regular.woff2 ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f2fb82db33848637993b.woff2\";\n\n//# sourceURL=webpack://rsschool0/./source/fonts/kanit-regular.woff2?");
+
 /***/ })
 
 /******/ 	});
@@ -146,6 +236,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -171,6 +264,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -185,6 +290,55 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */

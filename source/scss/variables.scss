@@ -28,11 +28,12 @@
 // ---------------------------------
 
 // переменная используемая в html для подключения скейлинга
-// $fz-default:                        16px;
+$fz-default:                        22px;
 
 // у некоторых шрифтов в ios возникают проблемы с символом рубля
 // https://www.artlebedev.ru/kovodstvo/sections/159/#13
 
+$ff:                                   "Kanit", "Arial", sans-serif;
 // $ff-placeholder:                    "Manrope", "Arial", sans-serif;
 
 // Animation
