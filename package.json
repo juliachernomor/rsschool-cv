@@ -1,0 +1,38 @@
+{
+  "name": "rsschool0",
+  "version": "1.0.0",
+  "description": "Личный проект от rsschool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve",
+    "deploy": "npm run build && npx gh-pages -d dist -e gh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliachernomor/rsschool-cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliachernomor/rsschool-cv/issues"
+  },
+  "homepage": "https://github.com/juliachernomor/rsschool-cv#readme",
+  "dependencies": {
+    "npm": "^8.19.2",
+    "sass": "^1.77.6",
+    "sass-loader": "^14.2.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "gh-pages": "^6.1.1",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
