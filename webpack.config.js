@@ -25,6 +25,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
           template: 'source/index.html', // Путь к вашему основному шаблону HTML
+          inject: 'body',
           filename: 'index.html', // Название выходного файла (может быть любым)
         }),
         new CleanWebpackPlugin(),
