@@ -126,7 +126,7 @@ eval("\r\n\r\n/* istanbul ignore next  */\r\nfunction styleTagTransform(css, sty
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/style.scss */ \"./source/scss/style.scss\");\n/* harmony import */ var _width__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./width */ \"./source/js/width.js\");\n\r\n\r\n\r\n(0,_width__WEBPACK_IMPORTED_MODULE_1__.calcWidth)();\n\n//# sourceURL=webpack://rsschool0/./source/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/style.scss */ \"./source/scss/style.scss\");\n/* harmony import */ var _width__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./width */ \"./source/js/width.js\");\n\r\n\r\n\r\nwindow.addEventListener('DOMContentLoaded', () => {\r\n(0,_width__WEBPACK_IMPORTED_MODULE_1__.calcWidth)();\r\n})\n\n//# sourceURL=webpack://rsschool0/./source/js/index.js?");
 
 /***/ }),
 
@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   calcWidth: () => (/* binding */ calcWidth)\n/* harmony export */ });\nconst calcWidth = () => {\r\n    window.addEventListener('resize', () => {\r\n        let wrapper = document.querySelector('.wrapper')\r\n        let video = document.querySelector('.video')\r\n\r\n        let width = wrapper.clientWidth;\r\n\r\n        video.style.left = `calc(100vw - (100vw/2) + ${width}`;\r\n    });\r\n}\r\n\r\n\r\n\n\n//# sourceURL=webpack://rsschool0/./source/js/width.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   calcWidth: () => (/* binding */ calcWidth)\n/* harmony export */ });\nconst calcWidth = () => {\r\n    window.addEventListener('resize', () => {\r\n        let wrapper = document.querySelector('.wrapper')\r\n        let video = document.querySelector('.video')\r\n\r\n        let width = wrapper.clientWidth;\r\n        console.log(width);\r\n\r\n        video.style.left = `calc(100vw - (100vw/2) + ${width}`;\r\n    });\r\n}\r\n\r\n\r\n\n\n//# sourceURL=webpack://rsschool0/./source/js/width.js?");
 
 /***/ }),
 
