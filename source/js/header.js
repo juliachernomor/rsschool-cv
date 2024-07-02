@@ -1,14 +1,34 @@
-const header = document.querySelector('.header');
-const main = document.querySelector('main');
+const burgerMenu = document.querySelector('.burger');
+const navList = document.querySelector('.nav__list');
+const html = document.querySelector('html');
+const body = document.body;
 
-let x =header.offsetHeight;
-main.style.paddingTop = x + 'px';
-
-const scrollHeader =  () => {
-    window.addEventListener('resize', () => {
-       let  x = header.offsetHeight;
-        main.style.paddingTop = x + 'px';
-    })
+function closeMenu(){
+  burgerMenu.classList.remove("active");
+  navList.classList.remove("active");
+  body.classList.remove("lock");
+  html.style.overflowY = 'visible';
 }
 
-export {scrollHeader};
+function openMenu(){
+  burgerMenu.classList.add('active');
+  navList.classList.add('active');
+  body.classList.add('lock');
+  html.style.overflowY = 'hidden';
+}
+
+const effectMenu = () => {
+  burgerMenu.addEventListener('click', function () {
+    if (burgerMenu.classList.contains('active') &&  navList.classList.contains('active')) {
+      closeMenu();
+    } else {
+      openMenu();
+    }
+  });
+};
+
+navList.addEventListener('click', closeMenu)
+
+export {effectMenu};
+
+

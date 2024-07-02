@@ -15,70 +15,72 @@
 
 <body>
     <div class="wrapper">
-        <header class="wrapper__header header hader--fixed">
-            <nav class="nav nav--closed nav--nojs">
+        <header class="wrapper__header header">
+            <nav class="nav">
                 <div class="nav__list-container">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <span class="nav__item-item nav__item-contacts nav-item">Contacts</span>
+                            <a class="nav__item-link nav-link" href="#contacts">Contacts</a>
                         </li>
                         <li class="nav__item">
-                            <span class="nav__item-item nav__item-about nav-item">About me</span>
+                            <a class="nav__item-link nav-link" href="#about">About me</a>
                         </li>
                         <li class="nav__item">
-                            <span class="nav__item-item nav__item-skills nav-item">Skills</span>
+                            <a class="nav__item-link nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav__item">
-                            <span class="nav__item-item nav__item-code nav-item">Code</span>
+                            <a class="nav__item-link nav-link" href="#code">Code</a>
                         </li>
                         <li class="nav__item">
-                            <span class="nav__item-item nav__item-work nav-item">Work</span>
+                            <a class="nav__item-link nav-link" href="#work">Work</a>
                         </li>
                         <li class="nav__item">
-                            <span class="nav__item-item nav__item-education nav-item">Education</span>
+                            <a class="nav__item-link nav-link" href="#education">Education</a>
                         </li>
                         <li class="nav__item">
-                            <span class="nav__item-item nav__item-level-of-english nav-item">Level of English</span>
+                            <a class="nav__item-link nav-link" href="#languages">Languages</a>
                         </li>
                     </ul>
-                    <button class="nav__burger burger" type="button">
-                        <span class="visually-hidden">Открывает и закрывает меню</span>
-                    </button>
+                    <div class="nav__burger burger" title="Открывает и закрывает меню">
+                        <span></span>
+                    </div>
+                </div>
+                <p>Iuliia Chernomorskaia</p>
             </nav>
             <div></div>
         </header>
-        <main>
+        <main id="contacts">
 
             <div class="main-container">
                 <section class="main-info">
                     <img src="./images/cv1.jpg" alt="Iuliia Chernomorsaia" width="192" height="256">
-                    <h1>Iuliia Chernomorskaia</h1>
+                    <h1 data-content ="Beginner frontend developer">Iuliia Chernomorskaia</h1>
                     <p>Contacts</p>
                     <ul class="main-info__list contacts">
                         <li class="contacts__item">
-                            <p>phone:<span><a href="tel:+7112964844">+7-911-296-48-44</a></span></p>
+                            <p>phone:<br><span><a href="tel:+7112964844">  +7-911-296-48-44</a></span></p>
                         </li>
                         <li class="contacts__item">
-                            <p>e-mail:<span><a href="mailto:yukka.spb@gmail.com">
-                                        yukka.spb@gmail.com
+                            <p>e-mail:<br><span><a href="mailto:yukka.spb@gmail.com"> 
+                                 yukka.spb@gmail.com
                                     </a></span></p>
                         </li>
                         <li class="contacts__item">
-                            <p>Discord:<span>Iuliia (@juliachernomor)</span></p>
+                            <p>Discord:<br><span><a href="#">  Iuliia (@juliachernomor)</a></span></p>
                         </li>
                         <li class="contacts__item">
-                            <p>GitHub:<span><a
-                                        href="https://github.com/juliachernomor?tab=repositories">juliachernomor</a></span>
+                            <p>GitHub:<br><span><a
+                                        href="https://github.com/juliachernomor?tab=repositories">  juliachernomor</a></span>
                             </p>
                         </li>
                         <li class="contacts__item">
-                            <p>adress:<span><a href="https://yandex.ru/maps/-/CDC1MR7h">18 Nauki Ave, Apt. 197,
+                            <p>adress:<br><span><a href="https://yandex.ru/maps/-/CDC1MR7h">  18 Nauki Ave, Apt. 197,
                                         Saint-Petersburg,195256,Russia</a></span></p>
                         </li>
                     </ul>
                 </section>
 
-                <section class="about-me">
+                <!-- <section class="about-me" id="about">
                     <h2>About me</h2>
                     <p> The main goal is to increase knowledge, improve language skills, gain invaluable experience and
                         gain a large number of positive emotions. I really enjoy learning programming. At 2023 i
@@ -86,14 +88,14 @@
                         myself.</p>
                 </section>
 
-                <section class="skills">
+                <section class="skills" id="skills">
                     <h2>Skills</h2>
                     <p>HTML Academy courses(frontend) was finished at 2023. One of my training project is <a
                             href="https://juliachernomor.github.io/2216777-cat-energy-27/">"Cat Energy" project by HTML
                             Academy</a></p>
                 </section>
 
-                <section class="code">
+                <section class="code" id="code">
                     <h2>Code examples:</h2>
                     <pre><code>
             function getPalindrome(str) {
@@ -111,7 +113,7 @@
               }
         </code></pre>
                 </section>
-                <section class="work">
+                <section class="work" id="work">
                     <h2>Work experience:</h2>
                     <p>I have no work experience in programming. I'm just learning.</p>
                 </section>
@@ -122,7 +124,7 @@
                         <li>Saint-Petersburg State University(Department of Microbiology, master's degree)</li>
                         <li>НTML Academy(Frontend course)</li>
                     </ul>
-                </section>
+                </section> -->
             </div>
             <div class="empty"></div>
         </main>

@@ -3,21 +3,13 @@
   
 // Default
 
-// $color-default-charcoal:               #484848;
-// $color-default-white:                  #ffffff;
+$color-default-black:                  #2c2b2c;
+$color-default-white:                  #ffffff;
 
 // Project palette
 // для нейминга цветов используем https://www.htmlcsscolor.com/hex/334482
-// $color-alabaster:                   #f0efe9;
-// $color-cerulean-blue:               #316dc2;
-// $color-endeavour:                   #275699;
-// $color-mischka:                     #a9afb7;
-// $color-wild-watermelon:             #ff5e66;
-// $color-rodeo-dust:                  #bba591;
-// $color-black-pearl:                 #0d1d33;
-// $color-wild-watermelon-transparent:  rgba(255, 94, 102, 0.2);
-// $color-cerulean-blue-transparent:   rgba(49, 109, 194, 0.2);
-// $color-black-pearl-transparent:   rgba(13, 29, 51, 0.4);
+$color-old-lavender:                   #7d7b7d;
+
 
 
 // Gradient
@@ -28,7 +20,7 @@
 // ---------------------------------
 
 // переменная используемая в html для подключения скейлинга
-$fz-default:                        22px;
+$fz-default:                        16px;
 
 // у некоторых шрифтов в ios возникают проблемы с символом рубля
 // https://www.artlebedev.ru/kovodstvo/sections/159/#13
