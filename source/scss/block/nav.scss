@@ -1,13 +1,18 @@
+.nav {
+    padding: 25px 30px 25px 20px;
+}
 
 .nav__list {
     padding: 0;
     margin: 0;
     list-style-type: none;
     display: flex;
-    column-gap: 5%;
+    column-gap: 2%;
     row-gap: 10px;
     justify-content: flex-start;
     flex-wrap: wrap;
+    border: 5px solid #000000;
+    border-radius: 10px;
 }
 
 .nav__item-item {

@@ -1,0 +1,15 @@
+.header {
+    min-height: 74px;
+    width: 100%;
+    max-width: 1440px;
+    overflow: hidden;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 2;
+    transition: height 0.3s;
+    background-color: #ffffff;
+}

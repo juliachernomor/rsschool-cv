@@ -1,14 +1,16 @@
+const wrapper = document.querySelector('.wrapper')
+const video = document.querySelector('.video');
+
+let width = wrapper.clientWidth + 'px';
+video.style.left = `calc(50vw + ${width}/4)`;
+
 const calcWidth = () => {
     window.addEventListener('resize', () => {
-        let wrapper = document.querySelector('.wrapper')
-        let video = document.querySelector('.video')
-
-        let width = wrapper.clientWidth;
-        console.log(width);
-
-        video.style.left = `calc(100vw - (100vw/2) + ${width}`;
-    });
+        width = wrapper.clientWidth + 'px';
+        video.style.left = `calc(50vw + ${width}/4)`;
+        console.log(video.style.left)
+    })
 }
 
-
 export {calcWidth};
+
