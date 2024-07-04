@@ -10,6 +10,7 @@
 @import "global/reboot";
 @import "global/utils";
 @import "global/fonts";
+@import "global/titles";
 
 
 // Blocks
@@ -26,6 +27,9 @@
 @import "block/nav-link";
 @import "block/contacts";
 @import "block/skills-item";
+@import "block/work";
+@import "block/education";
+@import "block/footer";
 // ---------------------------------
 
 // ❗❗❗ запрещено использовать изображения в css, касается как jpg \ png, так и svg

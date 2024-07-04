@@ -1,7 +1,7 @@
 .main-info {
     width: 100%;
-    padding: 25px 15px 0 15px;
-    margin-bottom: 15px;
+    padding: 25px 20px 0 20px;
+    margin-bottom: 25px;
     display: grid;
     grid-template-columns: 40% 55%;
     column-gap: 5%;
@@ -42,37 +42,6 @@
         padding: 10px;
         border-radius: 8%;
     }
-}
-
-.main-info h1 {
-    position: relative;
-    font-size: 2rem;
-    color: $color-default-black;
-    text-align: end;
-    justify-self: flex-end;
-    line-height: 24px;
-    font-weight: 500;
-    flex-shrink: 0;
-    margin: 0;
-    padding: 0;
-    grid-area: person;
-
-    @include vp-1199 {
-        display: none;
-    }
-}
-
-.main-info h1[data-content]::before {
-    position: absolute;
-    content: attr(data-content);
-    text-transform: capitalize;
-    font-style: italic;
-    top: -40px;
-    right: 0;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 55px;
-    opacity: 0.5;
 }
 
 .main-info p {

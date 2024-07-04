@@ -1,5 +1,5 @@
-.about-me {
-    padding: 0 20px;
+.work {
+    padding:0 20px;
     margin-bottom: 25px;
 
     @include vp-1199 {
@@ -11,8 +11,7 @@
     }
 }
 
-
-.about-me p {
+.work p {
     font-size: 1rem;
     line-height: 20px;
     font-weight: 300;
