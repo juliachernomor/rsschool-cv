@@ -1,9 +1,11 @@
 .main-info {
     width: 100%;
-    padding: 25px 15px 25px 15px;
+    padding: 25px 15px 0 15px;
+    margin-bottom: 15px;
     display: grid;
+    grid-template-columns: 40% 55%;
+    column-gap: 5%;
     grid-row-gap: 1rem;
-    grid-column-gap: 2rem;
     grid-template-rows: auto auto auto auto;
     justify-items: start;
     grid-template-areas:
@@ -19,22 +21,35 @@
         'person'
         'contacts'
         'contacts-content';
+        grid-template-columns: 100%;
         }
 }
 
 .main-info img {
+    display: block;
+    border-radius: 3%;
+    margin: auto;
     flex-shrink: 0;
     grid-area: picture;
-    border-radius: 10px;
     width: 100%;
+    aspect-ratio: 3/4;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+
+
+    @include vp-767 {
+        max-width: 100%;
+        padding: 10px;
+        border-radius: 8%;
+    }
 }
 
 .main-info h1 {
     position: relative;
     font-size: 2rem;
     color: $color-default-black;
+    text-align: end;
+    justify-self: flex-end;
     line-height: 24px;
     font-weight: 500;
     flex-shrink: 0;
@@ -42,7 +57,7 @@
     padding: 0;
     grid-area: person;
 
-    @include vp-767 {
+    @include vp-1199 {
         display: none;
     }
 }
@@ -52,7 +67,7 @@
     content: attr(data-content);
     text-transform: capitalize;
     font-style: italic;
-    top: -30%;
+    top: -40px;
     right: 0;
     font-size: 1rem;
     font-weight: 500;
@@ -62,6 +77,9 @@
 
 .main-info p {
     flex-shrink: 0;
+    font-size: 2rem;
+    line-height: 24px;
+    font-weight: 500;
     padding: 0;
     margin: 0;
     grid-area: contacts;
@@ -79,12 +97,7 @@
 
 .main-info ul {
     flex-shrink: 0;
-    margin: 0;
-    padding: 0;
     grid-area: contacts-content;
+    width: 100%;
     list-style-type: none;
-
-    @include vp-767 {
-        width: 100%;
-    }
 }

@@ -1,9 +1,52 @@
 .contacts {
-    @include vp-767 {
         display: flex;
         flex-direction: column;
         padding: 0 5px;
 
+        p {
+            font-size: 1.3rem;
+            line-height: 24px;
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+
+        a {
+            padding-left: 15px;
+            text-transform: lowercase;
+            font-size: 1rem;
+            font-weight: 400;
+            background: linear-gradient(151deg, #ed0233 0%, #003eb7 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: #0B2349;
+            cursor: pointer;
+        }
+
+    @include vp-1199 {
+        display: flex;
+        flex-direction: column;
+        padding: 0 5px;
+
+        p {
+            font-size: 1rem;
+            line-height: 18px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+
+        a {
+            padding-left: 10px;
+            text-transform: lowercase;
+            font-size: 0.8rem;
+            font-weight: 300;
+            background: linear-gradient(151deg, #ed0233 0%, #003eb7 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: #0B2349;
+            cursor: pointer;
+        }
+    }
+    @include vp-767 {
         p {
             font-size: 1rem;
             line-height: 18px;

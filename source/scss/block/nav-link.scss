@@ -17,3 +17,15 @@
         line-height: 14px;
       }
 }
+
+.nav__item:hover .nav__item-link {
+  background: linear-gradient(151deg, #ed0233 0%, #003eb7 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          color: #0B2349;
+}
+
+.nav__item:focus .nav__item-link::after,
+.nav__item:active .nav__item-link::after {
+  width: 100%;
+}

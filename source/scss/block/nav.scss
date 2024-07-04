@@ -13,6 +13,7 @@
         align-items: center;
 
         p {
+            position: relative;
             display: block;
             font-size: 2rem;
             font-weight: 600;
@@ -23,6 +24,7 @@
 
     @include vp-767 {
         padding: 15px 15px 15px 15px;
+
         p {
             width: 80%;
             font-size: 1.2rem;
@@ -35,6 +37,26 @@
         }
     }
 }
+
+.nav p[data-content]::before {
+    @include vp-1199 {
+        position: absolute;
+        content: attr(data-content);
+        text-transform: capitalize;
+        font-style: italic;
+        top: -30px;
+        right: 0;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 18px;
+        opacity: 0.5;
+    }
+
+    @include vp-767 {
+        display: none;
+    }
+}
+
 
 .nav__list-container {
     @include vp-1199 {
@@ -79,8 +101,36 @@
 }
 
 .nav__item {
+    position: relative;
     text-align: center;
+
+    & .nav__item-link::after {
+        position: absolute;
+        content: "";
+        margin: 0 auto;
+        margin-top: 2px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0px;
+        height: 2px;
+        display: block;
+        background: linear-gradient(151deg, #ed0233 0%, #003eb7 100%);
+        transition: 500ms;
+    }
 }
+
+.nav__item:hover .nav__item-link {
+    background: linear-gradient(151deg, #ed0233 0%, #003eb7 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: #0B2349;
+}
+
+.nav__item:focus .nav__item-link::after,
+.nav__item:active .nav__item-link::after {
+    width: 100%;
+}
+
 
 
 .nav__item-link {
