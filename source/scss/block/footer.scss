@@ -90,16 +90,34 @@
     }
 }
 
-.footer__svg-mypage {
+.footer__svg-mypage path,
+.footer__svg-rsschool path {
+    fill:#2c2b2c;
+
     @include vp-1199 {
-        width: 26px;
         height: 26px;
     }
 }
 
-.footer__svg-rsschool {
+.footer__svg-mypage path {
+    @include vp-1199 {
+        width: 26px;
+    }
+}
+
+.footer__svg-rsschool path {
     @include vp-1199 {
         width: 68px;
-        height: 26px;
     }
+}
+.footer__svg-mypage:hover path {
+    fill: url(#gradient1);
+    width: 100%;
+    height: 100%;
+}
+
+.footer__svg-rsschool:hover path {
+    fill: url(#gradient2);
+    width: 100%;
+    height: 100%;
 }

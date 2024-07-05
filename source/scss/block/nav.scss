@@ -124,14 +124,12 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             color: #0B2349;
-}
-
-.nav__item:focus .nav__item-link::after,
-.nav__item:active .nav__item-link::after {
+  }
+  
+  .nav__item:focus .nav__item-link::after,
+  .nav__item:active .nav__item-link::after {
     width: 100%;
-}
-
-
+  }
 
 .nav__item-link {
     position: relative;
