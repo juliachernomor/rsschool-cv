@@ -7,6 +7,8 @@ module.exports = {
       "at-rule-no-unknown": null,
       "scss/at-rule-no-unknown": true,
       "selector-class-pattern": null,
-      "no-invalid-double-slash-comments": null
+      "no-invalid-double-slash-comments": null,
+      "value-no-vendor-prefix": null,
+      "property-no-vendor-prefix": null
     }
   };

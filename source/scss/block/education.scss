@@ -11,10 +11,13 @@
 }
 
 .education-container {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 3fr 1fr;
   grid-template-columns: 3fr 1fr;
 
   @include vp-767 {
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     row-gap: 15px;
   }
@@ -72,6 +75,7 @@
   width: 100%;
   height: 100%;
   margin: auto;
+  -o-object-fit: contain;
   object-fit: contain;
   border-radius: 3%;
 

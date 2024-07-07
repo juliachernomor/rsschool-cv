@@ -1,5 +1,7 @@
 .main-container {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
   max-width: 100%;
   margin: 0 20px 0 30px;

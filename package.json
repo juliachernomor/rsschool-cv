@@ -8,8 +8,8 @@
     "build": "webpack",
     "start": "webpack serve",
     "deploy": "npm run build && npx gh-pages -d dist -e gh",
-    "stylelint": "stylelint \"source/sass/**/*.scss\"",
-    "stylelint:fix": "stylelint \"source/sass/**/*.scss\" --fix"
+    "stylelint": "stylelint \"source/scss/**/*.scss\"",
+    "stylelint:fix": "stylelint \"source/scss/**/*.scss\" --fix"
   },
   "repository": {
     "type": "git",
