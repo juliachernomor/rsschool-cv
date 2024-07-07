@@ -1,12 +1,21 @@
 .main-container {
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 20px 0 30px;
-    border: 5px solid #000000;
-    border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 100%;
+  margin: 0 20px 0 30px;
+  border: 5px solid $color-black;
+  border-radius: 10px;
 
-    @include vp-1199 {
-        margin: 0 10px 0 10px;
-    }
+  @include vp-1199 {
+    margin: 0 10px;
+  }
+}
+
+.main-container .about-me,
+.main-container .code,
+.main-container .education,
+.main-container .main-info,
+.main-container .skills,
+.main-container .work {
+  margin-bottom: 25px;
 }

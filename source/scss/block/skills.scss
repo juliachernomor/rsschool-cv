@@ -1,57 +1,56 @@
 .skills {
-    width: 100%;
-    padding: 0 20px;
-    margin-bottom: 25px;
+  width: 100%;
+  padding: 0 20px;
 
-    @include vp-1199 {
-        padding: 0 15px;
-    }
+  @include vp-1199 {
+    padding: 0 15px;
+  }
 
-    @include vp-767 {
-        padding: 0;
-    }
+  @include vp-767 {
+    padding: 0;
+  }
 }
 
 .skills p {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .skills__list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    gap: 30px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 40px;
+  width: 100%;
 
-    @include vp-767 {
-        padding: 0 5px;
-        grid-template-columns: 1fr;
-        gap: 5px 0;
-    }
+  @include vp-767 {
+    grid-template-columns: 1fr;
+    gap: 5px 0;
+    padding: 0 5px;
+  }
 }
 
 .skills ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px 20px;
-    margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px 20px;
+  margin-bottom: 15px;
 
-    @include vp-767 {
-        grid-template-columns: 1fr 1fr;
-        gap: 10px 10px;
-        margin-bottom: 0;
-    }
+  @include vp-767 {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 10px;
+    margin-bottom: 0;
+  }
 }
 
 .skills ul li {
-    padding: 0 20px;
-    text-align: center;
-    font-size: 1rem;
-    line-height: 20px;
-    font-weight: 300;
-    margin: 0 0 15px 0;
+  margin: 0 0 15px;
+  padding: 0 20px;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 20px;
+  text-align: center;
 
-    @include vp-1199 {
-        font-size: 0.8rem;
-    }
+  @include vp-1199 {
+    font-size: 0.8rem;
+  }
 }

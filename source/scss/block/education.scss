@@ -1,83 +1,82 @@
 .education {
-    padding:0 20px;
-    margin-bottom: 25px;
+  padding: 0 20px;
 
-    @include vp-1199 {
-        padding: 0 15px;
-    }
+  @include vp-1199 {
+    padding: 0 15px;
+  }
 
-    @include vp-767 {
-        padding: 0;
-    }
+  @include vp-767 {
+    padding: 0;
+  }
 }
 
 .education-container {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 
-    @include vp-767 {
-        grid-template-columns: 1fr;
-        row-gap: 15px;
-    }
+  @include vp-767 {
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+  }
 }
 
 .education ul li {
-    font-size: 1rem;
-    line-height: 20px;
-    font-weight: 300;
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 20px;
 
-    @include vp-767 {
-        font-size: 0.8rem;
-        line-height: 16px;
-        padding: 0 5px;
-    }
+  @include vp-767 {
+    padding: 0 5px;
+    font-size: 0.8rem;
+    line-height: 16px;
+  }
 }
-.education-image {
-    position: relative;
 
-    @include vp-767 {
-        padding: 0 5px;
-    }
+.education-image {
+  position: relative;
+
+  @include vp-767 {
+    padding: 0 5px;
+  }
 }
 
 .education-image p {
-    display: block;
-    width: 50%;
-    position: absolute;
-    content: "";
-    margin: 0 auto;
-    top: 16%;
-    right: 0;
-    font-size: 1rem;
-    line-height: 16px;
-    font-weight: 500;
-    background-color: #0900b1;
-    color: #edff00;
+  position: absolute;
+  top: 16%;
+  right: 0;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  color: $color-chartreuse-yellow;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 16px;
+  background-color: $color-new-midnight-blue;
+  content: "";
 
-    @include vp-1199 {
-        font-size: 0.8rem;
-        line-height: 16px;
-        font-weight: 400;
-        top: 0;
-    }
+  @include vp-1199 {
+    top: 0;
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
 
-    @include vp-767 {
-        width: 90px;
-        right: 5px;
-    }
+  @include vp-767 {
+    right: 5px;
+    width: 90px;
+  }
 }
 
 .education-image img {
-    display: block;
-    border-radius: 3%;
-    margin: auto;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  object-fit: contain;
+  border-radius: 3%;
 
-    @include vp-767 {
-        max-width: 100%;
-        border-radius: 8%;
-    }
+  @include vp-767 {
+    max-width: 100%;
+    border-radius: 8%;
+  }
 }
