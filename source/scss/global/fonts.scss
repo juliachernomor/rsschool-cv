@@ -1,0 +1,39 @@
+@font-face {
+  font-weight: 200;
+  font-family: Kanit;
+  font-style: normal;
+  src:
+    url("../fonts/kanit-extralight.woff2") format("woff2"),
+    url("../fonts/kanit-extralight.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: Kanit;
+  font-style: normal;
+  src:
+    url("../fonts/kanit-light.woff2") format("woff2"),
+    url("../fonts/kanit-light.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Kanit;
+  font-style: normal;
+  src:
+    url("../fonts/kanit-regular.woff2") format("woff2"),
+    url("../fonts/kanit-regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Kanit;
+  font-style: normal;
+  src:
+    url("../fonts/kanit-medium.woff2") format("woff2"),
+    url("../fonts/kanit-medium.woff") format("woff");
+  font-display: swap;
+}

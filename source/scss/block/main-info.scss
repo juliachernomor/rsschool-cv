@@ -1,0 +1,78 @@
+.main-info {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 16px;
+  -ms-grid-rows: auto 16px auto;
+  grid-template:
+    "picture person"
+    "picture contacts"
+    "picture contacts-content";
+  grid-template-rows: auto auto auto auto;
+  -ms-grid-columns: 40% 5% 55%;
+  grid-template-columns: 40% 55%;
+  justify-items: start;
+  width: 100%;
+  padding: 25px 20px 0;
+  -webkit-column-gap: 5%;
+  -moz-column-gap: 5%;
+  column-gap: 5%;
+
+  @include vp-767 {
+    grid-row-gap: 0.5rem;
+    -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto;
+    grid-template-areas:
+      "picture"
+      "person"
+      "contacts"
+      "contacts-content";
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+    padding: 0;
+  }
+}
+
+.main-info img {
+  display: block;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  grid-area: picture;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+  border-radius: 3%;
+  aspect-ratio: 3/4;
+
+  @include vp-767 {
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 8%;
+  }
+}
+
+.main-info p {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  grid-area: contacts;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 24px;
+
+  @include vp-767 {
+    width: 100%;
+    padding: 0 5px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 18px;
+    text-transform: uppercase;
+  }
+}
+
+.main-info ul {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  grid-area: contacts-content;
+  width: 100%;
+  list-style-type: none;
+}
