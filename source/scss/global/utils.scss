@@ -1,6 +1,11 @@
 .wrapper {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: $width;
   max-width: 1440px;
@@ -10,12 +15,20 @@
   header,
   main,
   footer {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 3fr 1fr;
     grid-template-columns: 3fr 1fr;
+
+    @include vp-767 {
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+    }
   }
 
   header,
   footer {
+    -ms-flex-negative: 0;
     flex-shrink: 0;
   }
 
@@ -29,6 +42,8 @@
   }
 
   main {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
     flex-grow: 1;
   }
 }
@@ -43,5 +58,6 @@
   white-space: nowrap;
   border: 0;
   clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(100%);
   clip-path: inset(100%);
 }

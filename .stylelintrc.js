@@ -9,6 +9,7 @@ module.exports = {
       "selector-class-pattern": null,
       "no-invalid-double-slash-comments": null,
       "value-no-vendor-prefix": null,
-      "property-no-vendor-prefix": null
+      "property-no-vendor-prefix": null,
+      "at-rule-no-vendor-prefix": null
     }
   };

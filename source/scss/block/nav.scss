@@ -140,6 +140,10 @@
       -webkit-transform 0.5s ease-in-out,
       transform 0.5s ease-in-out;
   }
+
+  @include vp-767 {
+    width: 100%;
+  }
 }
 
 .nav__item {

@@ -1,6 +1,7 @@
 *,
 *::before,
 *::after {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -42,10 +43,6 @@ p {
 img,
 video {
   display: block;
-}
-
-button {
-  background-color: hsl(0deg 100% 50%);
 }
 
 ul {
