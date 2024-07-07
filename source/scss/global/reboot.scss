@@ -1,6 +1,7 @@
 *,
 *::before,
 *::after {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -9,33 +10,34 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 html {
-  font-style: normal;
+  color: $color-default-black;
   font-weight: 300;
-  font-family: $ff;
   font-size: $fz-default;
+  font-family: $ff;
+  font-style: normal;
   line-height: 24px;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  // оптимизация выравнивания шрифта относительно центра строки
-  text-rendering: optimizeLegibility;
-  // если по прежнему есть проблемы с выравниванием
-  // https://transfonter.org/ - включите настройку https://prnt.sc/12rnt6g и переконвертируйте шрифт
+  text-rendering: optimizelegibility;
 }
 
 body {
+  position: relative;
   width: 100%;
-  height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 75% 25%;
+  min-height: 100vh;
 }
 
 a {
   text-decoration: none;
+}
+
+p {
+  margin: 0;
 }
 
 img,
@@ -43,6 +45,8 @@ video {
   display: block;
 }
 
-button {
-  background-color: aqua;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }

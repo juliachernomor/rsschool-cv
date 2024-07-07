@@ -1,0 +1,40 @@
+.code {
+  width: 100%;
+  max-width: 100%;
+  padding: 0 20px;
+
+  @include vp-1199 {
+    padding: 0 15px;
+  }
+
+  @include vp-767 {
+    padding: 0;
+  }
+}
+
+.code pre {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+
+.code pre code {
+  display: block;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 20px;
+  background: $square-gradient;
+  background-size: 22px 22px;
+
+  @include vp-1199 {
+    font-size: 0.8rem;
+    background-size: 18px 18px;
+  }
+
+  @include vp-767 {
+    font-weight: 600;
+    font-size: 0.3rem;
+    line-height: 10px;
+    background-size: 12px 12px;
+  }
+}

@@ -1,6 +1,6 @@
 # **IULIIA CHERNOMORSKAIA**
 
-  ![Iuliia Chernomorskaia](images/cv.jpg)
+  ![Iuliia Chernomorskaia](./source/images/cv1.jpg)
 
 ## **Contacts**
 
