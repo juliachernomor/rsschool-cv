@@ -1,6 +1,6 @@
 # **IULIIA CHERNOMORSKAIA**
 
-  ![Iuliia Chernomorskaia](./source/images/cv1.jpg)
+  ![Iuliia Chernomorskaia](./cv1.jpg)
 
 ## **Contacts**
 
@@ -35,5 +35,44 @@
 ## **Skills**
 
   HTML Academy courses(frontend) was finished at  2023. One of my training project is [Training project "Cat Energy"  by HTML Academy](https://juliachernomor.github.io/2216777-cat-energy-27/)  
+
+---
+
+## **Code examples:**
+
+```text
+      function getPalindrome(str) {
+        let left = 0;
+        const a = str.replaceAll(' ','');
+
+        for(let right = a.length-1; right >=0; right--) {
+            if(a[left] === a[right]) {
+                left +=1;
+            } else {
+                return false;
+            }
+        }
+        return true;
+      }
+```
+
+---
+
+## **Work experience:**
+
+  I have no work experience in programming.  I'm just learning.
+
+---
+
+## **Education:**
+
+* _Saint-Petersburg State University_(Department of Microbiology)
+* _НTML Academy_(Frontend course)
+
+---
+
+## **Level of English:**
+
+  Pre-intermidiate
 
 ---
